@@ -41,9 +41,9 @@
     "creativeTab": {
       "value": "CUSTOM:TerrariaBlock"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Clay"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Clay"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

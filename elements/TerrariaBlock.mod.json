@@ -1,0 +1,11 @@
+{
+  "_fv": 17,
+  "_type": "tab",
+  "definition": {
+    "name": "Terraria Block",
+    "icon": {
+      "value": "CUSTOM:Dirt"
+    },
+    "showSearch": false
+  }
+}

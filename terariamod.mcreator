@@ -1,0 +1,124 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
+    },
+    {
+      "name": "Dirt",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt"
+    },
+    {
+      "name": "TerrariaBlock",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terraria_block"
+    },
+    {
+      "name": "Grass",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass"
+    },
+    {
+      "name": "Mud",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud"
+    },
+    {
+      "name": "Corruptgrass",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corruptgrass"
+    },
+    {
+      "name": "Crimsongrass",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimsongrass"
+    },
+    {
+      "name": "Hallowedgrass",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hallowedgrass"
+    },
+    {
+      "name": "Stone",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.terariamod.dirt": "Dirt",
+      "block.terariamod.mud": "Mud",
+      "block.terariamod.corruptgrass": "Corrupt grass",
+      "block.terariamod.stone": "Stone",
+      "block.terariamod.hallowedgrass": "Hallowed grass",
+      "block.terariamod.copper_ore": "Copper Ore",
+      "block.terariamod.crimsongrass": "Crimson grass",
+      "block.terariamod.grass": "Grass",
+      "itemGroup.tabterraria_block": "Terraria Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "terariamod",
+    "modName": "Teraria.mod",
+    "version": "1.0.0",
+    "author": "Kamcio, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.terariamod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100112313
+}

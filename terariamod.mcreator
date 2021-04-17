@@ -108,6 +108,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "junglegrass"
+    },
+    {
+      "name": "Copper",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper"
+    },
+    {
+      "name": "CopperRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -125,7 +163,8 @@
       "block.terariamod.copper_ore": "Copper Ore",
       "block.terariamod.crimsongrass": "Crimson grass",
       "block.terariamod.junglegrass": "Junglegrass",
-      "itemGroup.tabterraria_block": "Terraria Block"
+      "itemGroup.tabterraria_block": "Terraria Block",
+      "item.terariamod.copper": "Copper"
     }
   },
   "foldersRoot": {

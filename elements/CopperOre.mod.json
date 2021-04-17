@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:CopperOre"
+      "value": "CUSTOM:Copper"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:CopperOre"
+      "value": "CUSTOM:Copper"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

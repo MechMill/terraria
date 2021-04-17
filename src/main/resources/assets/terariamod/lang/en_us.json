@@ -10,5 +10,6 @@
   "block.terariamod.copper_ore": "Copper Ore",
   "block.terariamod.crimsongrass": "Crimson grass",
   "block.terariamod.junglegrass": "Junglegrass",
-  "itemGroup.tabterraria_block": "Terraria Block"
+  "itemGroup.tabterraria_block": "Terraria Block",
+  "item.terariamod.copper": "Copper"
 }

@@ -18,6 +18,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.terariamod.itemgroup.TerrariaBlockItemGroup;
+import net.mcreator.terariamod.item.CopperItem;
 import net.mcreator.terariamod.TerariamodModElements;
 
 import java.util.List;
@@ -46,7 +47,7 @@ public class CopperOreBlock extends TerariamodModElements.ModElement {
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(CopperOreBlock.block, (int) (1));
+			return new ItemStack(CopperItem.block, (int) (1));
 		}
 
 		@Override
@@ -54,7 +55,7 @@ public class CopperOreBlock extends TerariamodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CopperOreBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(CopperItem.block, (int) (1)));
 		}
 	}
 }

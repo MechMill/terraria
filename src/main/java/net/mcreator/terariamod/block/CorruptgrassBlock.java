@@ -33,7 +33,7 @@ public class CorruptgrassBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:corruptgrass")
 	public static final Block block = null;
 	public CorruptgrassBlock(TerariamodModElements instance) {
-		super(instance, 6);
+		super(instance, 4);
 	}
 
 	@Override

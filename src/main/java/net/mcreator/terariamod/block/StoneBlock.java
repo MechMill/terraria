@@ -24,7 +24,7 @@ public class StoneBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:stone")
 	public static final Block block = null;
 	public StoneBlock(TerariamodModElements instance) {
-		super(instance, 9);
+		super(instance, 1);
 	}
 
 	@Override

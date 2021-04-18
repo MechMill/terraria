@@ -28,7 +28,7 @@ public class DemoniteOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:demonite_ore")
 	public static final Block block = null;
 	public DemoniteOreBlock(TerariamodModElements instance) {
-		super(instance, 21);
+		super(instance, 20);
 	}
 
 	@Override

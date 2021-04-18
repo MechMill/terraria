@@ -4,7 +4,7 @@
     {
       "name": "CopperOre",
       "type": "block",
-      "sortid": 3,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "TerrariaBlock",
       "type": "tab",
-      "sortid": 4,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "Grass",
       "type": "block",
-      "sortid": 1,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "Mud",
       "type": "block",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "Corruptgrass",
       "type": "block",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "Crimsongrass",
       "type": "block",
-      "sortid": 7,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "Hallowedgrass",
       "type": "block",
-      "sortid": 8,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "Stone",
       "type": "block",
-      "sortid": 9,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "Mushroomgrass",
       "type": "block",
-      "sortid": 11,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "Junglegrass",
       "type": "block",
-      "sortid": 12,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "TinOre",
       "type": "block",
-      "sortid": 13,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "IronOre",
       "type": "block",
-      "sortid": 14,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "LeadOre",
       "type": "block",
-      "sortid": 15,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "SilverOre",
       "type": "block",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +148,7 @@
     {
       "name": "TungstenOre",
       "type": "block",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "GoldOre",
       "type": "block",
-      "sortid": 18,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +166,7 @@
     {
       "name": "PlatinumOre",
       "type": "block",
-      "sortid": 19,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -175,7 +175,7 @@
     {
       "name": "MeteoriteOre",
       "type": "block",
-      "sortid": 20,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "DemoniteOre",
       "type": "block",
-      "sortid": 21,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -193,7 +193,7 @@
     {
       "name": "CrimtaneOre",
       "type": "block",
-      "sortid": 22,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -202,7 +202,7 @@
     {
       "name": "Obsidian",
       "type": "block",
-      "sortid": 23,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -211,7 +211,7 @@
     {
       "name": "Hellstone",
       "type": "block",
-      "sortid": 24,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,8 +224,8 @@
     "en_us": {
       "block.terariamod.silver_ore": "Silver Ore",
       "block.terariamod.lead_ore": "Lead Ore",
-      "block.terariamod.mushroomgrass": "Mushroomgrass",
       "block.terariamod.stone": "Stone",
+      "block.terariamod.mushroomgrass": "Mushroomgrass",
       "block.terariamod.hallowedgrass": "Hallowed grass",
       "block.terariamod.meteorite_ore": "Meteorite Ore",
       "block.terariamod.clay": "Clay",

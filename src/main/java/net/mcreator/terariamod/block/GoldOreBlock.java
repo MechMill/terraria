@@ -28,7 +28,7 @@ public class GoldOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:gold_ore")
 	public static final Block block = null;
 	public GoldOreBlock(TerariamodModElements instance) {
-		super(instance, 18);
+		super(instance, 17);
 	}
 
 	@Override

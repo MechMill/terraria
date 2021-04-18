@@ -13,7 +13,7 @@ import net.mcreator.terariamod.TerariamodModElements;
 @TerariamodModElements.ModElement.Tag
 public class TerrariaBlockItemGroup extends TerariamodModElements.ModElement {
 	public TerrariaBlockItemGroup(TerariamodModElements instance) {
-		super(instance, 4);
+		super(instance, 24);
 	}
 
 	@Override

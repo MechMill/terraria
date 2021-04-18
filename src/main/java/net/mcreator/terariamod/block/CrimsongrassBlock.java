@@ -33,7 +33,7 @@ public class CrimsongrassBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:crimsongrass")
 	public static final Block block = null;
 	public CrimsongrassBlock(TerariamodModElements instance) {
-		super(instance, 7);
+		super(instance, 5);
 	}
 
 	@Override

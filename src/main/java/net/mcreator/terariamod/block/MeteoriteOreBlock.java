@@ -28,7 +28,7 @@ public class MeteoriteOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:meteorite_ore")
 	public static final Block block = null;
 	public MeteoriteOreBlock(TerariamodModElements instance) {
-		super(instance, 20);
+		super(instance, 19);
 	}
 
 	@Override

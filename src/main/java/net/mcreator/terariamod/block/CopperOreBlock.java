@@ -28,7 +28,7 @@ public class CopperOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:copper_ore")
 	public static final Block block = null;
 	public CopperOreBlock(TerariamodModElements instance) {
-		super(instance, 3);
+		super(instance, 11);
 	}
 
 	@Override

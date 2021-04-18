@@ -28,7 +28,7 @@ public class TungstenOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:tungsten_ore")
 	public static final Block block = null;
 	public TungstenOreBlock(TerariamodModElements instance) {
-		super(instance, 17);
+		super(instance, 16);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class SilverOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:silver_ore")
 	public static final Block block = null;
 	public SilverOreBlock(TerariamodModElements instance) {
-		super(instance, 16);
+		super(instance, 15);
 	}
 
 	@Override

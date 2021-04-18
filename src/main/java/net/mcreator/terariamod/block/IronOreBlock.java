@@ -28,7 +28,7 @@ public class IronOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:iron_ore")
 	public static final Block block = null;
 	public IronOreBlock(TerariamodModElements instance) {
-		super(instance, 14);
+		super(instance, 13);
 	}
 
 	@Override

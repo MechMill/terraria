@@ -28,7 +28,7 @@ public class PlatinumOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:platinum_ore")
 	public static final Block block = null;
 	public PlatinumOreBlock(TerariamodModElements instance) {
-		super(instance, 19);
+		super(instance, 18);
 	}
 
 	@Override

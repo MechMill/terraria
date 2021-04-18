@@ -33,7 +33,7 @@ public class JunglegrassBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:junglegrass")
 	public static final Block block = null;
 	public JunglegrassBlock(TerariamodModElements instance) {
-		super(instance, 12);
+		super(instance, 9);
 	}
 
 	@Override

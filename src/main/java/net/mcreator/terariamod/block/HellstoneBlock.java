@@ -28,7 +28,7 @@ public class HellstoneBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:hellstone")
 	public static final Block block = null;
 	public HellstoneBlock(TerariamodModElements instance) {
-		super(instance, 24);
+		super(instance, 23);
 	}
 
 	@Override

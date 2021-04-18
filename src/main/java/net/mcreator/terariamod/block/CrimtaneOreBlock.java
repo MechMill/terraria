@@ -28,7 +28,7 @@ public class CrimtaneOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:crimtane_ore")
 	public static final Block block = null;
 	public CrimtaneOreBlock(TerariamodModElements instance) {
-		super(instance, 22);
+		super(instance, 21);
 	}
 
 	@Override

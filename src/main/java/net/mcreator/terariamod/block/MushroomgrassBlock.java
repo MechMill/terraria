@@ -33,7 +33,7 @@ public class MushroomgrassBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:mushroomgrass")
 	public static final Block block = null;
 	public MushroomgrassBlock(TerariamodModElements instance) {
-		super(instance, 11);
+		super(instance, 8);
 	}
 
 	@Override

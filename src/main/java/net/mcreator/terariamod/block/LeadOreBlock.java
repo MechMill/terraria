@@ -28,7 +28,7 @@ public class LeadOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:lead_ore")
 	public static final Block block = null;
 	public LeadOreBlock(TerariamodModElements instance) {
-		super(instance, 15);
+		super(instance, 14);
 	}
 
 	@Override

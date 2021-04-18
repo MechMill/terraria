@@ -28,7 +28,7 @@ public class ObsidianBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:obsidian")
 	public static final Block block = null;
 	public ObsidianBlock(TerariamodModElements instance) {
-		super(instance, 23);
+		super(instance, 22);
 	}
 
 	@Override

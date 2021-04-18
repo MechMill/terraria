@@ -28,7 +28,7 @@ public class TinOreBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:tin_ore")
 	public static final Block block = null;
 	public TinOreBlock(TerariamodModElements instance) {
-		super(instance, 13);
+		super(instance, 12);
 	}
 
 	@Override

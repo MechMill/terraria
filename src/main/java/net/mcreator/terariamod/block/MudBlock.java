@@ -28,7 +28,7 @@ public class MudBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:mud")
 	public static final Block block = null;
 	public MudBlock(TerariamodModElements instance) {
-		super(instance, 5);
+		super(instance, 7);
 	}
 
 	@Override

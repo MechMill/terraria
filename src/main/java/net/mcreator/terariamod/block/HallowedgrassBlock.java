@@ -33,7 +33,7 @@ public class HallowedgrassBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:hallowedgrass")
 	public static final Block block = null;
 	public HallowedgrassBlock(TerariamodModElements instance) {
-		super(instance, 8);
+		super(instance, 6);
 	}
 
 	@Override

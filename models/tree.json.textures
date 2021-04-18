@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "texture"
+        "0": "treedown"
       },
       "name": "default"
     }

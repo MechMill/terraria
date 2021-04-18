@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "terariamod:blocks/dirt",
-    "particle": "terariamod:blocks/dirt"
+    "all": "terariamod:blocks/sandstone_block",
+    "particle": "terariamod:blocks/sandstone_block"
   }
 }

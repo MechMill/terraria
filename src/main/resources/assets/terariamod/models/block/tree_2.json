@@ -3,6 +3,6 @@
   "textures": {
     "all": "terariamod:blocks/treedown",
     "particle": "terariamod:blocks/treedown",
-    "0": "terariamod:blocks/treedown"
+    "1": "terariamod:blocks/treedown"
   }
 }

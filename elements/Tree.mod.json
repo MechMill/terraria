@@ -43,7 +43,7 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:Tree"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:Tree"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

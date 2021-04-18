@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "terariamod:blocks/pink_ice_block",
+    "particle": "terariamod:blocks/pink_ice_block"
+  }
+}

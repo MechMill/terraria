@@ -1,0 +1,21 @@
+{
+  "_fv": 17,
+  "_type": "fluid",
+  "definition": {
+    "name": "Waterterraria",
+    "textureStill": "water_still",
+    "textureFlowing": "water_flow",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:TerrariaBlock"
+    },
+    "frequencyOnChunks": 16,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

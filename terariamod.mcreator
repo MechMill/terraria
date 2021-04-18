@@ -216,16 +216,47 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hellstone"
+    },
+    {
+      "name": "Waterterraria",
+      "type": "fluid",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waterterraria"
+    },
+    {
+      "name": "BiomePlains",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biome_plains"
+    },
+    {
+      "name": "Terraria",
+      "type": "dimension",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terraria",
+      "metadata": {
+        "ep": false
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.terariamod.terraria": "Terraria Portal Igniter",
       "block.terariamod.silver_ore": "Silver Ore",
       "block.terariamod.lead_ore": "Lead Ore",
-      "block.terariamod.stone": "Stone",
       "block.terariamod.mushroomgrass": "Mushroomgrass",
+      "block.terariamod.stone": "Stone",
       "block.terariamod.hallowedgrass": "Hallowed grass",
       "block.terariamod.meteorite_ore": "Meteorite Ore",
       "block.terariamod.clay": "Clay",
@@ -236,6 +267,7 @@
       "block.terariamod.crimsongrass": "Crimson grass",
       "block.terariamod.tungsten_ore": "Tungsten Ore",
       "itemGroup.tabterraria_block": "Terraria Block",
+      "item.terariamod.waterterraria_bucket": "Waterterraria Bucket",
       "block.terariamod.demonite_ore": "Demonite Ore",
       "block.terariamod.dirt": "Dirt",
       "block.terariamod.corruptgrass": "Corrupt grass",
@@ -243,9 +275,11 @@
       "block.terariamod.tin_ore": "Tin Ore",
       "block.terariamod.obsidian": "Obsidian",
       "block.terariamod.gold_ore": "Gold Ore",
+      "fluid.waterterraria": "Waterterraria",
       "block.terariamod.copper_ore": "Copper Ore",
       "block.terariamod.platinum_ore": "Platinum Ore",
-      "block.terariamod.junglegrass": "Junglegrass"
+      "block.terariamod.junglegrass": "Junglegrass",
+      "biome.terariamod.biome_plains": "Biome Plains"
     }
   },
   "foldersRoot": {

@@ -351,8 +351,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.terariamod.terraria": "Terraria Portal Igniter",
       "block.terariamod.marble": "Marble",
+      "item.terariamod.terraria": "Terraria Portal Igniter",
       "block.terariamod.silver_ore": "Silver Ore",
       "block.terariamod.lead_ore": "Lead Ore",
       "block.terariamod.stone": "Stone",

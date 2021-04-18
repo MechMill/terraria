@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Tree Down",
+    "name": "Tree",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:TreeDown"
+      "value": "CUSTOM:Tree"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:TreeDown"
+      "value": "CUSTOM:Tree"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

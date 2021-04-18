@@ -2,22 +2,22 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "sand_block",
+    "texture": "treedown",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 2,
+    "customModelName": "tree3:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "sand",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Sand",
+    "name": "Tree",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -41,25 +41,25 @@
     "creativeTab": {
       "value": "CUSTOM:TerrariaBlock"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:Sand"
+      "value": "CUSTOM:Tree3"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "GLASS"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:Sand"
+      "value": "CUSTOM:Tree3"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SAND"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,

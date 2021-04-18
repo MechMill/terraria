@@ -29,11 +29,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TerariamodModElements.ModElement.Tag
-public class TreeDownBlock extends TerariamodModElements.ModElement {
-	@ObjectHolder("terariamod:tree_down")
+public class Tree3Block extends TerariamodModElements.ModElement {
+	@ObjectHolder("terariamod:tree_3")
 	public static final Block block = null;
-	public TreeDownBlock(TerariamodModElements instance) {
-		super(instance, 53);
+	public Tree3Block(TerariamodModElements instance) {
+		super(instance, 55);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class TreeDownBlock extends TerariamodModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			setRegistryName("tree_down");
+			setRegistryName("tree_3");
 		}
 
 		@Override
@@ -62,7 +62,7 @@ public class TreeDownBlock extends TerariamodModElements.ModElement {
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(TreeDownBlock.block, (int) (1));
+			return new ItemStack(Tree3Block.block, (int) (1));
 		}
 
 		@Override
@@ -70,7 +70,7 @@ public class TreeDownBlock extends TerariamodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(TreeDownBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(Tree3Block.block, (int) (1)));
 		}
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "terariamod:custom/tree3",
+  "textures": {
+    "all": "terariamod:blocks/treedown",
+    "particle": "terariamod:blocks/treedown",
+    "0": "terariamod:blocks/treedown"
+  }
+}

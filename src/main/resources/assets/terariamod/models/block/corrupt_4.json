@@ -1,0 +1,8 @@
+{
+  "parent": "terariamod:custom/tree4",
+  "textures": {
+    "all": "terariamod:blocks/corruptdown",
+    "particle": "terariamod:blocks/corruptdown",
+    "0": "terariamod:blocks/treedown"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "terariamod:blocks/obsidian_ore",
+    "particle": "terariamod:blocks/obsidian_ore"
+  }
+}

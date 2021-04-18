@@ -110,61 +110,142 @@
       "registry_name": "junglegrass"
     },
     {
-      "name": "Copper",
-      "type": "item",
+      "name": "TinOre",
+      "type": "block",
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper"
+      "registry_name": "tin_ore"
     },
     {
-      "name": "CopperRightClickedOnBlock",
-      "type": "procedure",
+      "name": "IronOre",
+      "type": "block",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper_right_clicked_on_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "iron_ore"
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lead_ore"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ore"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten_ore"
+    },
+    {
+      "name": "GoldOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_ore"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ore"
+    },
+    {
+      "name": "MeteoriteOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meteorite_ore"
+    },
+    {
+      "name": "DemoniteOre",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demonite_ore"
+    },
+    {
+      "name": "CrimtaneOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimtane_ore"
+    },
+    {
+      "name": "Obsidian",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian"
+    },
+    {
+      "name": "Hellstone",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hellstone"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.terariamod.dirt": "Dirt",
-      "block.terariamod.mud": "Mud",
-      "block.terariamod.corruptgrass": "Corrupt grass",
+      "block.terariamod.silver_ore": "Silver Ore",
+      "block.terariamod.lead_ore": "Lead Ore",
       "block.terariamod.stone": "Stone",
       "block.terariamod.mushroomgrass": "Mushroomgrass",
       "block.terariamod.hallowedgrass": "Hallowed grass",
+      "block.terariamod.meteorite_ore": "Meteorite Ore",
       "block.terariamod.clay": "Clay",
       "block.terariamod.grass": "Grass",
-      "block.terariamod.copper_ore": "Copper Ore",
+      "block.terariamod.iron_ore": "Iron Ore",
+      "block.terariamod.hellstone": "Hellstone",
+      "block.terariamod.crimtane_ore": "Crimtane Ore",
       "block.terariamod.crimsongrass": "Crimson grass",
-      "block.terariamod.junglegrass": "Junglegrass",
+      "block.terariamod.tungsten_ore": "Tungsten Ore",
       "itemGroup.tabterraria_block": "Terraria Block",
-      "item.terariamod.copper": "Copper"
+      "block.terariamod.demonite_ore": "Demonite Ore",
+      "block.terariamod.dirt": "Dirt",
+      "block.terariamod.corruptgrass": "Corrupt grass",
+      "block.terariamod.mud": "Mud",
+      "block.terariamod.tin_ore": "Tin Ore",
+      "block.terariamod.obsidian": "Obsidian",
+      "block.terariamod.gold_ore": "Gold Ore",
+      "block.terariamod.copper_ore": "Copper Ore",
+      "block.terariamod.platinum_ore": "Platinum Ore",
+      "block.terariamod.junglegrass": "Junglegrass"
     }
   },
   "foldersRoot": {

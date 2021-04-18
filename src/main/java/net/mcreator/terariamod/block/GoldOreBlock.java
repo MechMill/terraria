@@ -24,11 +24,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TerariamodModElements.ModElement.Tag
-public class CopperOreBlock extends TerariamodModElements.ModElement {
-	@ObjectHolder("terariamod:copper_ore")
+public class GoldOreBlock extends TerariamodModElements.ModElement {
+	@ObjectHolder("terariamod:gold_ore")
 	public static final Block block = null;
-	public CopperOreBlock(TerariamodModElements instance) {
-		super(instance, 3);
+	public GoldOreBlock(TerariamodModElements instance) {
+		super(instance, 18);
 	}
 
 	@Override
@@ -41,12 +41,12 @@ public class CopperOreBlock extends TerariamodModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("copper_ore");
+			setRegistryName("gold_ore");
 		}
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(CopperOreBlock.block, (int) (1));
+			return new ItemStack(GoldOreBlock.block, (int) (1));
 		}
 
 		@Override
@@ -54,7 +54,7 @@ public class CopperOreBlock extends TerariamodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CopperOreBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(GoldOreBlock.block, (int) (1)));
 		}
 	}
 }

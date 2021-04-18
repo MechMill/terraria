@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "terariamod:blocks/demonite_ore",
+    "particle": "terariamod:blocks/demonite_ore"
+  }
+}

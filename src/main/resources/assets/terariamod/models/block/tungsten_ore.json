@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "terariamod:blocks/tungster_ore",
+    "particle": "terariamod:blocks/tungster_ore"
+  }
+}

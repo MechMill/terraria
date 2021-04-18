@@ -345,6 +345,60 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ebonsandstone"
+    },
+    {
+      "name": "Crimsandstone",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimsandstone"
+    },
+    {
+      "name": "Pearlsandstone",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pearlsandstone"
+    },
+    {
+      "name": "HardenedSand",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_sand"
+    },
+    {
+      "name": "HardenedEbonsand",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_ebonsand"
+    },
+    {
+      "name": "HardenedCrimsand",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_crimsand"
+    },
+    {
+      "name": "HardenedPearlsand",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_pearlsand"
     }
   ],
   "variable_elements": [],
@@ -360,6 +414,7 @@
       "block.terariamod.hallowedgrass": "Hallowed grass",
       "block.terariamod.meteorite_ore": "Meteorite Ore",
       "block.terariamod.clay": "Clay",
+      "block.terariamod.hardened_sand": "Hardened Sand",
       "block.terariamod.pearlsand": "Pearlsand",
       "block.terariamod.grass": "Grass",
       "block.terariamod.iron_ore": "Iron Ore",
@@ -373,6 +428,7 @@
       "itemGroup.tabterraria_block": "Terraria Block",
       "item.terariamod.waterterraria_bucket": "Waterterraria Bucket",
       "block.terariamod.demonite_ore": "Demonite Ore",
+      "block.terariamod.crimsandstone": "Crimsandstone",
       "block.terariamod.dirt": "Dirt",
       "block.terariamod.ebonsand": "Ebonsand",
       "block.terariamod.corruptgrass": "Corrupt grass",
@@ -380,11 +436,15 @@
       "block.terariamod.crimstone": "Crimstone",
       "block.terariamod.pearlstone": "Pearlstone",
       "block.terariamod.crimsand": "Crimsand",
+      "block.terariamod.hardened_crimsand": "Hardened Crimsand",
       "block.terariamod.tin_ore": "Tin Ore",
       "block.terariamod.obsidian": "Obsidian",
+      "block.terariamod.pearlsandstone": "Pearlsandstone",
+      "block.terariamod.hardened_pearlsand": "Hardened Pearlsand",
       "block.terariamod.gold_ore": "Gold Ore",
       "fluid.waterterraria": "Waterterraria",
       "block.terariamod.copper_ore": "Copper Ore",
+      "block.terariamod.hardened_ebonsand": "Hardened Ebonsand",
       "block.terariamod.platinum_ore": "Platinum Ore",
       "block.terariamod.granite": "Granite",
       "block.terariamod.junglegrass": "Junglegrass",

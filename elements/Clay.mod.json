@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "clay",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "EARTH"
+      "value": "CLAY"
     },
     "tickRate": 10,
     "tickRandomly": false,

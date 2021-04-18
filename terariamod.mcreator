@@ -516,6 +516,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tree_4"
+    },
+    {
+      "name": "Corrupt",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupt"
+    },
+    {
+      "name": "Corrupt2",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupt_2"
+    },
+    {
+      "name": "Corrupt3",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupt_3"
+    },
+    {
+      "name": "Corrupt4",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupt_4"
     }
   ],
   "variable_elements": [],
@@ -551,9 +587,12 @@
       "block.terariamod.pearlsandstone": "Pearlsandstone",
       "block.terariamod.tree": "Tree",
       "block.terariamod.gold_ore": "Gold Ore",
+      "block.terariamod.corrupt_2": "Tree4",
       "block.terariamod.hardened_ebonsand": "Hardened Ebonsand",
       "block.terariamod.platinum_ore": "Platinum Ore",
       "block.terariamod.junglegrass": "Junglegrass",
+      "block.terariamod.corrupt_4": "Tree4",
+      "block.terariamod.corrupt_3": "Tree4",
       "block.terariamod.tree_4": "Tree4",
       "block.terariamod.hallowedgrass": "Hallowed grass",
       "block.terariamod.clay": "Clay",
@@ -572,6 +611,7 @@
       "block.terariamod.crimstone": "Crimstone",
       "block.terariamod.purple_ice": "Purple Ice",
       "block.terariamod.tin_ore": "Tin Ore",
+      "block.terariamod.corrupt": "Tree4",
       "block.terariamod.hardened_pearlsand": "Hardened Pearlsand",
       "block.terariamod.silt": "Silt",
       "fluid.waterterraria": "Waterterraria",

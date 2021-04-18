@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "terariamod:block/corrupt_4"
+    },
+    "facing=east": {
+      "model": "terariamod:block/corrupt_4",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "terariamod:block/corrupt_4",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "terariamod:block/corrupt_4",
+      "y": 270
+    }
+  }
+}

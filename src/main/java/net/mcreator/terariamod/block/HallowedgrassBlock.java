@@ -50,7 +50,7 @@ public class HallowedgrassBlock extends TerariamodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.WET_GRASS).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("hallowedgrass");
 		}

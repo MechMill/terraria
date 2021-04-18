@@ -39,7 +39,7 @@ public class ClayBlock extends TerariamodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+			super(Block.Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("clay");
 		}

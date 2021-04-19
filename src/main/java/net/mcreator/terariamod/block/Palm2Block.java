@@ -24,7 +24,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.terariamod.procedures.TreedropProcedure;
+import net.mcreator.terariamod.procedures.PalmdropProcedure;
 import net.mcreator.terariamod.itemgroup.TerrariaBlockItemGroup;
 import net.mcreator.terariamod.TerariamodModElements;
 
@@ -100,7 +100,7 @@ public class Palm2Block extends TerariamodModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				TreedropProcedure.executeProcedure($_dependencies);
+				PalmdropProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 10);
 		}

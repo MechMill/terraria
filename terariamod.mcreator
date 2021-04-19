@@ -745,6 +745,15 @@
       "registry_name": "boreal_4"
     },
     {
+      "name": "Mushrooms2",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushrooms_2"
+    },
+    {
       "name": "Boreal3",
       "type": "block",
       "sortid": 72,
@@ -826,22 +835,13 @@
       "registry_name": "boreal_2"
     },
     {
-      "name": "GlowingMushroom",
+      "name": "Mushrooms4",
       "type": "block",
-      "sortid": 95,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "glowing_mushroom"
-    },
-    {
-      "name": "Mushrooms2",
-      "type": "block",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mushrooms_2"
+      "registry_name": "mushrooms_4"
     },
     {
       "name": "Mushrooms3",
@@ -853,13 +853,216 @@
       "registry_name": "mushrooms_3"
     },
     {
-      "name": "Mushrooms4",
+      "name": "GlowingMushroom",
       "type": "block",
-      "sortid": 98,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mushrooms_4"
+      "registry_name": "glowing_mushroom"
+    },
+    {
+      "name": "Corruptdrop",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corruptdrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Borealdrop",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "borealdrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shadedrop",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shadedrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RichMahoganydrop",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rich_mahoganydrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pearldrop",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pearldrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Palmdrop",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palmdrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mushroomsdrop",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushroomsdrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -870,8 +1073,8 @@
       "item.terariamod.terraria": "Terraria Portal Igniter",
       "block.terariamod.silver_ore": "Silver Ore",
       "block.terariamod.palm": "Palm",
-      "block.terariamod.wood": "Wood",
       "block.terariamod.lead_ore": "Lead Ore",
+      "block.terariamod.wood": "Wood",
       "block.terariamod.stone": "Stone",
       "block.terariamod.mushroomgrass": "Mushroomgrass",
       "block.terariamod.rich_mahogany_wood": "Wood",
@@ -893,7 +1096,7 @@
       "block.terariamod.pearl_wood": "Wood",
       "block.terariamod.crimsongrass": "Crimson grass",
       "block.terariamod.ebonsandstone": "Ebonsandstone",
-      "block.terariamod.rich_mahogany": "Wood",
+      "block.terariamod.rich_mahogany": "Rich Mahogany",
       "block.terariamod.desert_fossil": "Desert Fossil",
       "block.terariamod.crimsandstone": "Crimsandstone",
       "block.terariamod.demonite_ore": "Demonite Ore",

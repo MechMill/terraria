@@ -33,7 +33,7 @@ public class RichMahoganyBlock extends TerariamodModElements.ModElement {
 	@ObjectHolder("terariamod:rich_mahogany")
 	public static final Block block = null;
 	public RichMahoganyBlock(TerariamodModElements instance) {
-		super(instance, 87);
+		super(instance, 66);
 	}
 
 	@Override

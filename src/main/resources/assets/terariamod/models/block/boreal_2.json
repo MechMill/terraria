@@ -1,0 +1,8 @@
+{
+  "parent": "terariamod:custom/boreal2",
+  "textures": {
+    "all": "terariamod:blocks/borealdown",
+    "particle": "terariamod:blocks/boreal_wood",
+    "0": "terariamod:blocks/borealdown"
+  }
+}

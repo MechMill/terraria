@@ -2,19 +2,19 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "jungledown",
+    "texture": "crimsondown",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "jungle:default",
+    "customModelName": "crimsone2:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "rich_mahogany",
+    "particleTexture": "shadewood",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Rich Mahogany",
+    "name": "Shade2",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:RichMahoganyWood"
+      "value": "CUSTOM:ShadeWood"
     },
     "dropAmount": 2,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:RichMahogany"
+      "value": "CUSTOM:Shade2"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -101,6 +101,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "Treedrop"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

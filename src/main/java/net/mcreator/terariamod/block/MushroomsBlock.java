@@ -29,11 +29,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TerariamodModElements.ModElement.Tag
-public class RichMahoganyBlock extends TerariamodModElements.ModElement {
-	@ObjectHolder("terariamod:rich_mahogany")
+public class MushroomsBlock extends TerariamodModElements.ModElement {
+	@ObjectHolder("terariamod:mushrooms")
 	public static final Block block = null;
-	public RichMahoganyBlock(TerariamodModElements instance) {
-		super(instance, 87);
+	public MushroomsBlock(TerariamodModElements instance) {
+		super(instance, 94);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class RichMahoganyBlock extends TerariamodModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			setRegistryName("rich_mahogany");
+			setRegistryName("mushrooms");
 		}
 
 		@Override
@@ -62,7 +62,7 @@ public class RichMahoganyBlock extends TerariamodModElements.ModElement {
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(RichMahoganyBlock.block, (int) (1));
+			return new ItemStack(MushroomsBlock.block, (int) (1));
 		}
 
 		@Override
@@ -70,7 +70,7 @@ public class RichMahoganyBlock extends TerariamodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RichMahoganyWoodBlock.block, (int) (2)));
+			return Collections.singletonList(new ItemStack(PalmWoodBlock.block, (int) (2)));
 		}
 	}
 }

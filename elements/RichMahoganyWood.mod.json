@@ -2,22 +2,22 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "jungledown",
+    "texture": "rich_mahogany",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "jungle:default",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
-    "particleTexture": "rich_mahogany",
+    "itemTexture": "rich_mahogany",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Rich Mahogany",
+    "name": "Wood",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -41,16 +41,16 @@
     "creativeTab": {
       "value": "CUSTOM:TerrariaBlock"
     },
-    "destroyTool": "axe",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:RichMahoganyWood"
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
       "value": "WOOD"
     },
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:RichMahogany"
+      "value": "CUSTOM:RichMahoganyWood"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

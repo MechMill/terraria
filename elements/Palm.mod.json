@@ -2,19 +2,19 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "jungledown",
+    "texture": "palmdown",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "jungle:default",
+    "customModelName": "palm:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "rich_mahogany",
+    "particleTexture": "palm_wood",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Rich Mahogany",
+    "name": "Palm",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:RichMahoganyWood"
+      "value": "CUSTOM:PalmWood"
     },
     "dropAmount": 2,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:RichMahogany"
+      "value": "CUSTOM:Palm"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

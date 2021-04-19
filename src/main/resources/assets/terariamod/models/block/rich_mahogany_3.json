@@ -1,5 +1,5 @@
 {
-  "parent": "terariamod:custom/jungle",
+  "parent": "terariamod:custom/jungle3",
   "textures": {
     "all": "terariamod:blocks/jungledown",
     "particle": "terariamod:blocks/rich_mahogany",

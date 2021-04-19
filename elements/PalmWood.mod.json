@@ -2,7 +2,7 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "ebonwood",
+    "texture": "palm_wood",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "ebonwood",
+    "itemTexture": "palm_wood",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:CorruptWood"
+      "value": "CUSTOM:PalmWood"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:CorruptWood"
+      "value": "CUSTOM:PalmWood"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

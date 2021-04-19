@@ -24,11 +24,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TerariamodModElements.ModElement.Tag
-public class CorruptWoodBlock extends TerariamodModElements.ModElement {
-	@ObjectHolder("terariamod:corrupt_wood")
+public class BorealWoodBlock extends TerariamodModElements.ModElement {
+	@ObjectHolder("terariamod:boreal_wood")
 	public static final Block block = null;
-	public CorruptWoodBlock(TerariamodModElements instance) {
-		super(instance, 63);
+	public BorealWoodBlock(TerariamodModElements instance) {
+		super(instance, 64);
 	}
 
 	@Override
@@ -41,12 +41,12 @@ public class CorruptWoodBlock extends TerariamodModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("corrupt_wood");
+			setRegistryName("boreal_wood");
 		}
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(CorruptWoodBlock.block, (int) (1));
+			return new ItemStack(BorealWoodBlock.block, (int) (1));
 		}
 
 		@Override
@@ -54,7 +54,7 @@ public class CorruptWoodBlock extends TerariamodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CorruptWoodBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(BorealWoodBlock.block, (int) (1)));
 		}
 	}
 }

@@ -76,7 +76,7 @@ public class Corrupt2Block extends TerariamodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CorruptWoodBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(EbonWoodBlock.block, (int) (1)));
 		}
 
 		@Override

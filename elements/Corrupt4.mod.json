@@ -43,7 +43,7 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:CorruptWood"
+      "value": "CUSTOM:EbonWood"
     },
     "dropAmount": 2,
     "useLootTableForDrops": false,

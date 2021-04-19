@@ -2,22 +2,22 @@
   "_fv": 17,
   "_type": "block",
   "definition": {
-    "texture": "corruptdown",
+    "texture": "rich_mahogany",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "corrupt2:default",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
-    "particleTexture": "ebonwood",
+    "itemTexture": "rich_mahogany",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Corrupt2",
+    "name": "Wood",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -41,16 +41,16 @@
     "creativeTab": {
       "value": "CUSTOM:TerrariaBlock"
     },
-    "destroyTool": "axe",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:EbonWood"
+      "value": "CUSTOM:RichMahogany"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
       "value": "WOOD"
     },
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:Corrupt2"
+      "value": "CUSTOM:RichMahogany"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -101,9 +101,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "Treedrop"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

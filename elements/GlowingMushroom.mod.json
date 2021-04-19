@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "glowing_mushroom",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

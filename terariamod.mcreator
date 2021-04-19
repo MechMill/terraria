@@ -644,6 +644,222 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pearl_wood"
+    },
+    {
+      "name": "RichMahoganyWood",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rich_mahogany_wood"
+    },
+    {
+      "name": "Mushrooms",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushrooms"
+    },
+    {
+      "name": "Pearl2",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pearl_2"
+    },
+    {
+      "name": "Shade2",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shade_2"
+    },
+    {
+      "name": "Pearl3",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pearl_3"
+    },
+    {
+      "name": "Pearl4",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pearl_4"
+    },
+    {
+      "name": "Shade4",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shade_4"
+    },
+    {
+      "name": "Shade",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shade"
+    },
+    {
+      "name": "Shade3",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shade_3"
+    },
+    {
+      "name": "Pearl",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pearl"
+    },
+    {
+      "name": "Boreal4",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boreal_4"
+    },
+    {
+      "name": "Mushrooms2",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushrooms_2"
+    },
+    {
+      "name": "Boreal3",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boreal_3"
+    },
+    {
+      "name": "Palm3",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_3"
+    },
+    {
+      "name": "Palm2",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_2"
+    },
+    {
+      "name": "RichMahogany4",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rich_mahogany_4"
+    },
+    {
+      "name": "Palm",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm"
+    },
+    {
+      "name": "RichMahogany2",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rich_mahogany_2"
+    },
+    {
+      "name": "RichMahogany3",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rich_mahogany_3"
+    },
+    {
+      "name": "Boreal",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boreal"
+    },
+    {
+      "name": "Boreal2",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boreal_2"
+    },
+    {
+      "name": "Mushrooms4",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushrooms_4"
+    },
+    {
+      "name": "Mushrooms3",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mushrooms_3"
+    },
+    {
+      "name": "GlowingMushroom",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowing_mushroom"
     }
   ],
   "variable_elements": [],

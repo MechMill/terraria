@@ -1,0 +1,8 @@
+{
+  "parent": "terariamod:custom/palm",
+  "textures": {
+    "all": "terariamod:blocks/palmdown",
+    "particle": "terariamod:blocks/palm_wood",
+    "0": "terariamod:blocks/palmdown"
+  }
+}

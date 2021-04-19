@@ -1,0 +1,8 @@
+{
+  "parent": "terariamod:custom/jungle3",
+  "textures": {
+    "all": "terariamod:blocks/jungledown",
+    "particle": "terariamod:blocks/rich_mahogany",
+    "0": "terariamod:blocks/jungledown"
+  }
+}

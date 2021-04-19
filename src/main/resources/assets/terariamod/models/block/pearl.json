@@ -1,0 +1,8 @@
+{
+  "parent": "terariamod:custom/hallowed",
+  "textures": {
+    "all": "terariamod:blocks/halloweddown",
+    "particle": "terariamod:blocks/pearlwood",
+    "0": "terariamod:blocks/halloweddown"
+  }
+}

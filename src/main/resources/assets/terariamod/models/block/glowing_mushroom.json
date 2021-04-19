@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "terariamod:blocks/glowing_mushroom",
+    "particle": "terariamod:blocks/glowing_mushroom"
+  }
+}

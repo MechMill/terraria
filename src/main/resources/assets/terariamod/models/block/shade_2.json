@@ -1,0 +1,8 @@
+{
+  "parent": "terariamod:custom/crimsone2",
+  "textures": {
+    "all": "terariamod:blocks/crimsondown",
+    "particle": "terariamod:blocks/shadewood",
+    "0": "terariamod:blocks/crimsondown"
+  }
+}

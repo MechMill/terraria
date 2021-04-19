@@ -102,7 +102,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "Treedrop"
+      "name": "RichMahoganydrop"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

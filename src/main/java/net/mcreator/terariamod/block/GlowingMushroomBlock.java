@@ -1,17 +1,33 @@
 
 package net.mcreator.terariamod.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.loot.LootContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.terariamod.itemgroup.TerrariaBlockItemGroup;
+import net.mcreator.terariamod.TerariamodModElements;
+
+import java.util.List;
+import java.util.Collections;
 
 @TerariamodModElements.ModElement.Tag
 public class GlowingMushroomBlock extends TerariamodModElements.ModElement {
-
 	@ObjectHolder("terariamod:glowing_mushroom")
 	public static final Block block = null;
-
 	public GlowingMushroomBlock(TerariamodModElements instance) {
 		super(instance, 95);
-
 	}
 
 	@Override
@@ -20,14 +36,9 @@ public class GlowingMushroomBlock extends TerariamodModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(TerrariaBlockItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-
 	public static class CustomBlock extends Block {
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("glowing_mushroom");
 		}
 
@@ -38,13 +49,10 @@ public class GlowingMushroomBlock extends TerariamodModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(GlowingMushroomBlock.block, (int) (1)));
 		}
-
 	}
-
 }

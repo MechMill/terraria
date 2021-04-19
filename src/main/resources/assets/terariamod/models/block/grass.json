@@ -1,10 +1,10 @@
 {
   "parent": "block/grass_block",
   "textures": {
-    "bottom": "terariamod:blocks/dirt",
+    "bottom": "terariamod:blocks/grass",
     "top": "terariamod:blocks/grass",
-    "side": "terariamod:blocks/dirt_grass",
-    "overlay": "terariamod:blocks/dirt_grass",
-    "particle": "terariamod:blocks/dirt"
+    "side": "terariamod:blocks/grass",
+    "overlay": "terariamod:blocks/grass",
+    "particle": "terariamod:blocks/grass"
   }
 }

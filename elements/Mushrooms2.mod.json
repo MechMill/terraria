@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "mushrooms:default",
+    "customModelName": "mushrooms2:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Mushrooms",
+    "name": "Mushrooms2",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -45,7 +45,7 @@
     "customDrop": {
       "value": "CUSTOM:GlowingMushroom"
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:Mushrooms"
+      "value": "CUSTOM:Mushrooms2"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -101,6 +101,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "Treedrop"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

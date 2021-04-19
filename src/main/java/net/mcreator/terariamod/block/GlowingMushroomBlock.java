@@ -2,7 +2,6 @@
 package net.mcreator.terariamod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.RayTraceResult;
@@ -24,11 +23,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TerariamodModElements.ModElement.Tag
-public class RichMahoganyWoodBlock extends TerariamodModElements.ModElement {
-	@ObjectHolder("terariamod:rich_mahogany_wood")
+public class GlowingMushroomBlock extends TerariamodModElements.ModElement {
+	@ObjectHolder("terariamod:glowing_mushroom")
 	public static final Block block = null;
-	public RichMahoganyWoodBlock(TerariamodModElements instance) {
-		super(instance, 86);
+	public GlowingMushroomBlock(TerariamodModElements instance) {
+		super(instance, 95);
 	}
 
 	@Override
@@ -39,14 +38,13 @@ public class RichMahoganyWoodBlock extends TerariamodModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("rich_mahogany_wood");
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			setRegistryName("glowing_mushroom");
 		}
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(RichMahoganyWoodBlock.block, (int) (1));
+			return new ItemStack(GlowingMushroomBlock.block, (int) (1));
 		}
 
 		@Override
@@ -54,7 +52,7 @@ public class RichMahoganyWoodBlock extends TerariamodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(RichMahoganyWoodBlock.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(GlowingMushroomBlock.block, (int) (1)));
 		}
 	}
 }

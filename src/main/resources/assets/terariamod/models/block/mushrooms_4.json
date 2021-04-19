@@ -1,5 +1,5 @@
 {
-  "parent": "terariamod:custom/mushrooms",
+  "parent": "terariamod:custom/mushrooms4",
   "textures": {
     "all": "terariamod:blocks/mushroomsdown",
     "particle": "terariamod:blocks/glowing_mushroom",

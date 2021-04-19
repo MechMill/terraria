@@ -2,7 +2,7 @@
   "parent": "terariamod:custom/tree2",
   "textures": {
     "all": "terariamod:blocks/treedown",
-    "particle": "terariamod:blocks/treedown",
+    "particle": "terariamod:blocks/wood",
     "1": "terariamod:blocks/treedown"
   }
 }

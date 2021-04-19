@@ -2,7 +2,7 @@
   "parent": "terariamod:custom/corrupt",
   "textures": {
     "all": "terariamod:blocks/corruptdown",
-    "particle": "terariamod:blocks/corruptdown",
+    "particle": "terariamod:blocks/ebonwood",
     "0": "terariamod:blocks/corruptdown"
   }
 }

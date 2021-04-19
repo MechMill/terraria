@@ -552,6 +552,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "corrupt_4"
+    },
+    {
+      "name": "Wood",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood"
+    },
+    {
+      "name": "Treedrop",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treedrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptWood",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupt_wood"
     }
   ],
   "variable_elements": [],
@@ -562,6 +609,7 @@
       "item.terariamod.terraria": "Terraria Portal Igniter",
       "block.terariamod.silver_ore": "Silver Ore",
       "block.terariamod.lead_ore": "Lead Ore",
+      "block.terariamod.wood": "Wood",
       "block.terariamod.mushroomgrass": "Mushroomgrass",
       "block.terariamod.stone": "Stone",
       "block.terariamod.meteorite_ore": "Meteorite Ore",
@@ -596,7 +644,7 @@
       "block.terariamod.tree_4": "Tree4",
       "block.terariamod.hallowedgrass": "Hallowed grass",
       "block.terariamod.clay": "Clay",
-      "block.terariamod.tree_2": "Tree2",
+      "block.terariamod.tree_2": "tree2",
       "block.terariamod.tree_3": "Tree3",
       "block.terariamod.ebonstone": "Ebonstone",
       "block.terariamod.sand": "Sand",
@@ -619,6 +667,7 @@
       "block.terariamod.copper_ore": "Copper Ore",
       "block.terariamod.granite": "Granite",
       "block.terariamod.sandstone": "Sandstone",
+      "block.terariamod.corrupt_wood": "Wood",
       "biome.terariamod.biome_plains": "Biome Plains"
     }
   },

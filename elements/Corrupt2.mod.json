@@ -14,7 +14,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "ebonwood",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:CorruptWood"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Corrupt2"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -101,6 +101,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "Treedrop"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

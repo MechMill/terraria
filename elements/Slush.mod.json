@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "SNOW"
+      "value": "SAND"
     },
     "tickRate": 10,
     "tickRandomly": false,

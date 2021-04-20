@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "terariamod:blocks/corrupt_grass",
+    "top": "terariamod:blocks/corrupt_grass",
+    "side": "terariamod:blocks/corrupt_grass",
+    "overlay": "terariamod:blocks/corrupt_grass",
+    "particle": "terariamod:blocks/corrupt_grass"
+  }
+}

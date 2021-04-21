@@ -9,6 +9,18 @@
     "undergroundBlock": {
       "value": "CUSTOM:Dirt"
     },
+    "airColor": {
+      "value": -6684673,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -10040065,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10040065,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },
@@ -38,7 +50,9 @@
     "biomeType": "WARM",
     "spawnBiome": false,
     "biomeWeight": 10,
-    "biomeDictionaryTypes": [],
+    "biomeDictionaryTypes": [
+      "PLAINS"
+    ],
     "grassPerChunk": 4,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 4,
@@ -48,7 +62,7 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
